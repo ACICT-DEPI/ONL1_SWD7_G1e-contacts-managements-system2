@@ -1,0 +1,718 @@
+{
+	"info": {
+		"_postman_id": "f3eb85e7-15dc-4593-9757-469be73a9488",
+		"name": "Butiqq",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "38837421"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6Ii9MaFgxZDIxTEUzYVc3ZFZqZElGWEE9PSIsInZhbHVlIjoieFg4ekF6d3Rmc0RUeEYycC9DeE11MmxOVFcwMnF0OFBSYVhISlBuU3dFNEh0eVBVeU5DdkVzVzZEL2szaWcrYU5oSmJDSDcxK1BsdGk5Zlk5L29kbmY1TXhMeHZiTm9JbWdKcEptVHkrV0VnWWJPVFNRajN1bmxxcDFNS0xyNHQiLCJtYWMiOiJlOGZiMzVhNDAzNjgzODMxMDNjNjY0ZTM1NWFjNGJlNjRmNTBlMjBmZWNiZTk4ZTY0ZWZjZjAzMDNiYTFlNjhkIiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6ImJDVUcvUkpxWUlFWWpnaVBBM1V3S2c9PSIsInZhbHVlIjoiMjV6THhJL3AyaHY4Q3RUNy9ZNExzOEZmNlpWcG1IV0t1a0E4ZkhQcnRPTG1ZZnJPaFJsSHdZbEloVXJCUGRUandXZXFIVXFSRnhRWituWmxpdlN5OS9iY25qS3UyZTJER0l1WGNVN0FTYW9sY3crblJsQXJxc0VBaGFKVEp5d1QiLCJtYWMiOiJmNjMyYmE0ODUzM2JkOTMzZDBhNzNjNmNlZjIzY2JmYTQ3NTI4YmRiMDUxYzA3ODQxMmE1ODNkODQ2YTMyMTJkIiwidGFnIjoiIn0%3D"
+					},
+					{
+						"key": "Origin",
+						"value": "https://butiqq.rz.dvtst.com"
+					},
+					{
+						"key": "Referer",
+						"value": "https://butiqq.rz.dvtst.com/en/register"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "_token",
+							"value": "RF7LdjE7qDZYzopbYEpaafKkeYCm58zwJ1qsuTUX",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "a8b3878bc4@emailfoxi.pro",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "01113311881",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Test",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456789",
+							"type": "text"
+						},
+						{
+							"key": "password_confirmation",
+							"value": "123456789",
+							"type": "text"
+						},
+						{
+							"key": "date_of_birth",
+							"value": "2024-10-22",
+							"type": "text"
+						},
+						{
+							"key": "register",
+							"value": "Register",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://butiqq.rz.dvtst.com/en/register",
+				"description": "Generated from cURL: curl 'https://butiqq.rz.dvtst.com/en/register' \\\r\n  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9' \\\r\n  -H 'Cache-Control: max-age=0' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/x-www-form-urlencoded' \\\r\n  -H 'Cookie: XSRF-TOKEN=eyJpdiI6Ii9MaFgxZDIxTEUzYVc3ZFZqZElGWEE9PSIsInZhbHVlIjoieFg4ekF6d3Rmc0RUeEYycC9DeE11MmxOVFcwMnF0OFBSYVhISlBuU3dFNEh0eVBVeU5DdkVzVzZEL2szaWcrYU5oSmJDSDcxK1BsdGk5Zlk5L29kbmY1TXhMeHZiTm9JbWdKcEptVHkrV0VnWWJPVFNRajN1bmxxcDFNS0xyNHQiLCJtYWMiOiJlOGZiMzVhNDAzNjgzODMxMDNjNjY0ZTM1NWFjNGJlNjRmNTBlMjBmZWNiZTk4ZTY0ZWZjZjAzMDNiYTFlNjhkIiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6ImJDVUcvUkpxWUlFWWpnaVBBM1V3S2c9PSIsInZhbHVlIjoiMjV6THhJL3AyaHY4Q3RUNy9ZNExzOEZmNlpWcG1IV0t1a0E4ZkhQcnRPTG1ZZnJPaFJsSHdZbEloVXJCUGRUandXZXFIVXFSRnhRWituWmxpdlN5OS9iY25qS3UyZTJER0l1WGNVN0FTYW9sY3crblJsQXJxc0VBaGFKVEp5d1QiLCJtYWMiOiJmNjMyYmE0ODUzM2JkOTMzZDBhNzNjNmNlZjIzY2JmYTQ3NTI4YmRiMDUxYzA3ODQxMmE1ODNkODQ2YTMyMTJkIiwidGFnIjoiIn0%3D' \\\r\n  -H 'Origin: https://butiqq.rz.dvtst.com' \\\r\n  -H 'Referer: https://butiqq.rz.dvtst.com/en/register' \\\r\n  -H 'Sec-Fetch-Dest: document' \\\r\n  -H 'Sec-Fetch-Mode: navigate' \\\r\n  -H 'Sec-Fetch-Site: same-origin' \\\r\n  -H 'Sec-Fetch-User: ?1' \\\r\n  -H 'Upgrade-Insecure-Requests: 1' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  --data-raw '_token=RF7LdjE7qDZYzopbYEpaafKkeYCm58zwJ1qsuTUX&email=a8b3878bc4%40emailfoxi.pro&phone=01113311881&name=Test&password=123456789&password_confirmation=123456789&date_of_birth=2024-10-22&register=Register'"
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6InRYSVVOTVZnVm01UlFLS2VKNG1nRXc9PSIsInZhbHVlIjoicGErNmZ2d2Z4Uk9WQkI2dFNONFIrb2I3d09tcUhhY2VueHVkSzl6NDBMcHY5QzFBbnp4OVVENUd1ckk5U25VOVozbEZvQ21HYnlyQVFTdHZZVTJmZ3ZjRWxrcW5zMTJUQmljWmZGSjFLRXhEd1l4b0ppR2xzRitSUEdmMjlpZ2wiLCJtYWMiOiIwM2Y4ZTAzZmMzZjA2ZDBkNTlhM2IyNjM5MGQzMmRmMjM1M2IyZGMyYzFmNjhlNzMzNzE2MjVjM2E4MzFjZmFmIiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6IlJrVk1WMWNjQy9IK2ZQNjdENzBYK1E9PSIsInZhbHVlIjoiVXBOUDd6SjZNLzI2ZHJ1OXJMVnQvbitSZngvTklIOHd2b0ViV1hDV3pBUFZtQVI2KzZwUVBGSDJvTUkyRWN2Z1h3OEVhN1p5S2tnVEtvQVhhQ3RnV1V3QzZiVW43RkNoUk5Dd2dxQW5nYThLUmhyMkh6d2sxVi9pRTdGMjVpa3EiLCJtYWMiOiIyYmNiYmM5MjhhOTQxMGZlYzZjNTE5N2MwMDMyYWFkZTk5ZjBiMWM4N2YzNjg4NDFkZGYyNzFkYzQ4YTIyODA0IiwidGFnIjoiIn0%3D"
+					},
+					{
+						"key": "Origin",
+						"value": "https://butiqq.rz.dvtst.com"
+					},
+					{
+						"key": "Referer",
+						"value": "https://butiqq.rz.dvtst.com/login"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "_token",
+							"value": "5kUGXcnXWjh0sKy4jSpNbhpQA86ymaYOUNP7RsLw",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "a8b3878bc4@emailfoxi.pro",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456789",
+							"type": "text"
+						},
+						{
+							"key": "register",
+							"value": "تسجيل الدخول",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://butiqq.rz.dvtst.com/login",
+				"description": "Generated from cURL: curl 'https://butiqq.rz.dvtst.com/login' \\\r\n  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9' \\\r\n  -H 'Cache-Control: max-age=0' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/x-www-form-urlencoded' \\\r\n  -H 'Cookie: XSRF-TOKEN=eyJpdiI6InRYSVVOTVZnVm01UlFLS2VKNG1nRXc9PSIsInZhbHVlIjoicGErNmZ2d2Z4Uk9WQkI2dFNONFIrb2I3d09tcUhhY2VueHVkSzl6NDBMcHY5QzFBbnp4OVVENUd1ckk5U25VOVozbEZvQ21HYnlyQVFTdHZZVTJmZ3ZjRWxrcW5zMTJUQmljWmZGSjFLRXhEd1l4b0ppR2xzRitSUEdmMjlpZ2wiLCJtYWMiOiIwM2Y4ZTAzZmMzZjA2ZDBkNTlhM2IyNjM5MGQzMmRmMjM1M2IyZGMyYzFmNjhlNzMzNzE2MjVjM2E4MzFjZmFmIiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6IlJrVk1WMWNjQy9IK2ZQNjdENzBYK1E9PSIsInZhbHVlIjoiVXBOUDd6SjZNLzI2ZHJ1OXJMVnQvbitSZngvTklIOHd2b0ViV1hDV3pBUFZtQVI2KzZwUVBGSDJvTUkyRWN2Z1h3OEVhN1p5S2tnVEtvQVhhQ3RnV1V3QzZiVW43RkNoUk5Dd2dxQW5nYThLUmhyMkh6d2sxVi9pRTdGMjVpa3EiLCJtYWMiOiIyYmNiYmM5MjhhOTQxMGZlYzZjNTE5N2MwMDMyYWFkZTk5ZjBiMWM4N2YzNjg4NDFkZGYyNzFkYzQ4YTIyODA0IiwidGFnIjoiIn0%3D' \\\r\n  -H 'Origin: https://butiqq.rz.dvtst.com' \\\r\n  -H 'Referer: https://butiqq.rz.dvtst.com/login' \\\r\n  -H 'Sec-Fetch-Dest: document' \\\r\n  -H 'Sec-Fetch-Mode: navigate' \\\r\n  -H 'Sec-Fetch-Site: same-origin' \\\r\n  -H 'Sec-Fetch-User: ?1' \\\r\n  -H 'Upgrade-Insecure-Requests: 1' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  --data-raw '_token=5kUGXcnXWjh0sKy4jSpNbhpQA86ymaYOUNP7RsLw&email=a8b3878bc4%40emailfoxi.pro&password=123456789&register=%D8%AA%D8%B3%D8%AC%D9%8A%D9%84+%D8%A7%D9%84%D8%AF%D8%AE%D9%88%D9%84'"
+			},
+			"response": []
+		},
+		{
+			"name": "search",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6IkJxYWxaNkpXNmhoRnI3Z1ozaXVPS3c9PSIsInZhbHVlIjoiWDBlVmdmcXlzU2ZVNmp5Smo0dmRPQUpRdE1UTllVQTJnajlFZ1kyS0ZDdkR5M0srRDhPYUN0VWtLWTk1b1VuMVY0M1FOYzl1NnE1NUJUSnl2MmNrVWh2c1ozc1BSWGs4bzVxVSt3T2EyUTZOejBEQVNOMVUwRmM0SFdSdm1mbEUiLCJtYWMiOiI4NDE3ZTNiNDZhYTViMzRkZmMwOGViMWNmMWM5NTA0MzUyY2UwYTFkMWFiZWU5OTkyZjY1ODk2NzEyZjI3YTBhIiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6InFsS3dlSWhHL0owdytEL3JaK2J0clE9PSIsInZhbHVlIjoiejlvUEVnVm9JbmEvZ0g2TVZmQmVRR1crMlNINUNRcEtadENKSlBybm1kdUdGaEplY1NmTkt0WStQMGx5d1lwUkZDTGNua0hpOE1zQ3lVcGFBc2xla1c3NkJKdlJCVWVsTkJXZTBmL3RaSG4wUHd4SFRPR0YrODE3WUZzQlI5UTciLCJtYWMiOiJkNTQyYzQ0ODZjMWE5NmZkYTI2ZjU4MDcwNGZhMjAwZjIxMGZhNTFlODcyYjRkZjk1YzEzMzljMmM4MDYwOGExIiwidGFnIjoiIn0%3D"
+					},
+					{
+						"key": "Referer",
+						"value": "https://butiqq.rz.dvtst.com/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://butiqq.rz.dvtst.com/products?search=\"العلامة التجارية - نايك\"",
+					"protocol": "https",
+					"host": [
+						"butiqq",
+						"rz",
+						"dvtst",
+						"com"
+					],
+					"path": [
+						"products"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "\"العلامة التجارية - نايك\""
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://butiqq.rz.dvtst.com/products?search=' \\\r\n  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Cookie: XSRF-TOKEN=eyJpdiI6IkJxYWxaNkpXNmhoRnI3Z1ozaXVPS3c9PSIsInZhbHVlIjoiWDBlVmdmcXlzU2ZVNmp5Smo0dmRPQUpRdE1UTllVQTJnajlFZ1kyS0ZDdkR5M0srRDhPYUN0VWtLWTk1b1VuMVY0M1FOYzl1NnE1NUJUSnl2MmNrVWh2c1ozc1BSWGs4bzVxVSt3T2EyUTZOejBEQVNOMVUwRmM0SFdSdm1mbEUiLCJtYWMiOiI4NDE3ZTNiNDZhYTViMzRkZmMwOGViMWNmMWM5NTA0MzUyY2UwYTFkMWFiZWU5OTkyZjY1ODk2NzEyZjI3YTBhIiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6InFsS3dlSWhHL0owdytEL3JaK2J0clE9PSIsInZhbHVlIjoiejlvUEVnVm9JbmEvZ0g2TVZmQmVRR1crMlNINUNRcEtadENKSlBybm1kdUdGaEplY1NmTkt0WStQMGx5d1lwUkZDTGNua0hpOE1zQ3lVcGFBc2xla1c3NkJKdlJCVWVsTkJXZTBmL3RaSG4wUHd4SFRPR0YrODE3WUZzQlI5UTciLCJtYWMiOiJkNTQyYzQ0ODZjMWE5NmZkYTI2ZjU4MDcwNGZhMjAwZjIxMGZhNTFlODcyYjRkZjk1YzEzMzljMmM4MDYwOGExIiwidGFnIjoiIn0%3D' \\\r\n  -H 'Referer: https://butiqq.rz.dvtst.com/' \\\r\n  -H 'Sec-Fetch-Dest: document' \\\r\n  -H 'Sec-Fetch-Mode: navigate' \\\r\n  -H 'Sec-Fetch-Site: same-origin' \\\r\n  -H 'Sec-Fetch-User: ?1' \\\r\n  -H 'Upgrade-Insecure-Requests: 1' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"'"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Account Details",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6ImVFZHVHUnUwRWtYQUNxOWs0VS9LMXc9PSIsInZhbHVlIjoiYlZNYzQ4clU5OW13VGRoMWRFbDYrakVuOWhHOFlqVHYycGtDcTlIclQ2KzJYZU1TVVZBRnNhWG5VZTBPYXFpYi90OU9zNjlKeG1vakNvV3hZeFhhdXFqWDZWUmo0L2MydG9PZFc3bHJ5TTVSOFFPU0xNNFY1bWRBRFlaRTdSMzQiLCJtYWMiOiI5N2Y5ZTNjZGRjNDRkY2M2NDNiYWI2OGY0OTFiMDE3OTBmZmVhMmQ1NTYzNGYwZDFkZmZhMWE3MGNiODM2N2E0IiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6IlVUZ2wyQW5MVGV1NVBYWlViNEF3Q1E9PSIsInZhbHVlIjoiMW5STWl5UXpSYkUwRGtsQ2xLSitMVDdWRlh3M25jd1RDMjU2ZFBtVVF6SytRaStMUVRoZ3NrQnAxT2RKbmh6dXpMSUNaT2hBU242MVdGM2gyWjllZXF5WlNYNDFraFBCMFM3czNSYmRhdUFuUlVrVnBjZGlIY1lhcnVkVmlYTlciLCJtYWMiOiIzYTFkZjNkZDNlODdlMDQyY2IwNjUxNDZkOGM3NzI0YjQ5YTdiZmVlNmU0YjJhOWNkOWJhMTUxOGJkNmJiYWIxIiwidGFnIjoiIn0%3D"
+					},
+					{
+						"key": "Referer",
+						"value": "https://butiqq.rz.dvtst.com/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": "https://butiqq.rz.dvtst.com/account",
+				"description": "Generated from cURL: curl 'https://butiqq.rz.dvtst.com/account' \\\r\n  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Cookie: XSRF-TOKEN=eyJpdiI6ImVFZHVHUnUwRWtYQUNxOWs0VS9LMXc9PSIsInZhbHVlIjoiYlZNYzQ4clU5OW13VGRoMWRFbDYrakVuOWhHOFlqVHYycGtDcTlIclQ2KzJYZU1TVVZBRnNhWG5VZTBPYXFpYi90OU9zNjlKeG1vakNvV3hZeFhhdXFqWDZWUmo0L2MydG9PZFc3bHJ5TTVSOFFPU0xNNFY1bWRBRFlaRTdSMzQiLCJtYWMiOiI5N2Y5ZTNjZGRjNDRkY2M2NDNiYWI2OGY0OTFiMDE3OTBmZmVhMmQ1NTYzNGYwZDFkZmZhMWE3MGNiODM2N2E0IiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6IlVUZ2wyQW5MVGV1NVBYWlViNEF3Q1E9PSIsInZhbHVlIjoiMW5STWl5UXpSYkUwRGtsQ2xLSitMVDdWRlh3M25jd1RDMjU2ZFBtVVF6SytRaStMUVRoZ3NrQnAxT2RKbmh6dXpMSUNaT2hBU242MVdGM2gyWjllZXF5WlNYNDFraFBCMFM3czNSYmRhdUFuUlVrVnBjZGlIY1lhcnVkVmlYTlciLCJtYWMiOiIzYTFkZjNkZDNlODdlMDQyY2IwNjUxNDZkOGM3NzI0YjQ5YTdiZmVlNmU0YjJhOWNkOWJhMTUxOGJkNmJiYWIxIiwidGFnIjoiIn0%3D' \\\r\n  -H 'Referer: https://butiqq.rz.dvtst.com/' \\\r\n  -H 'Sec-Fetch-Dest: document' \\\r\n  -H 'Sec-Fetch-Mode: navigate' \\\r\n  -H 'Sec-Fetch-Site: same-origin' \\\r\n  -H 'Sec-Fetch-User: ?1' \\\r\n  -H 'Upgrade-Insecure-Requests: 1' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"'"
+			},
+			"response": []
+		},
+		{
+			"name": "Address",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html, application/xhtml+xml"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6Im9Vb3ZBSXdVSUpYRU1sTGloY2Z2K2c9PSIsInZhbHVlIjoia1RpdnJhYWRiRFVoam5wZXNOeG1DMUN4REkvbjRoWWZHQWZTOUx3eStOWFBLdjJreFE1U1dDWkpzNTBRY3lEdkdGd25XSG9vcXF4bUt4RkJnakx3TTNCNjNqMld6U1ZLb0J3Tm5rbU5YTkZ2U1B0M09rQlNyZ3psKzhiNVdFMGwiLCJtYWMiOiJjNTcxZGJlZWMxYTAxZWNjZDZjMTA4MGZmN2EzZDlmZTJhOTVhYzM1MTgwOWMxMzUwODIyOGU3NGRiNzQ5MzA5IiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6IjBvbURxaE9ybzFhOHQ2QTJSbHA4N1E9PSIsInZhbHVlIjoiSU1xOC94anJUTDRZc2tPUVlVYzJ0ek9FTmJUNER4QUtLMjJ2aURPc0VnOTl0UTQvcEZUUmdaU1Z5aTEwV0NsYlVvQmVQeVhPUG1JbjB4S3pFeW5Iaytlb2hxSkcwU0hGMHY0VVZXSkRDbGZzM2JvUEhFaEd5Q2ZLVTI1OENWSEciLCJtYWMiOiI3NTJmMjk0NTA2NDBlZTA3ZjUxYjIxNTU4YTM3NDYyMjZjNTVjN2JjMTgxNDJiNWM5MDBlZTBkM2NhZmY3YTQ3IiwidGFnIjoiIn0%3D"
+					},
+					{
+						"key": "Origin",
+						"value": "https://butiqq.rz.dvtst.com"
+					},
+					{
+						"key": "Referer",
+						"value": "https://butiqq.rz.dvtst.com/check-out/shipping"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+					},
+					{
+						"key": "X-CSRF-TOKEN",
+						"value": "fvHwoBNO2gPg5gUqUXYbiybMhSx2awPFmTRMtKez"
+					},
+					{
+						"key": "X-Livewire",
+						"value": "true"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"fingerprint\":{\"id\":\"PMHtpbTO2QnY6844Xp3H\",\"name\":\"address\",\"locale\":\"ar\",\"path\":\"check-out/shipping\",\"method\":\"GET\",\"v\":\"acj\"},\"serverMemo\":{\"children\":[],\"errors\":[],\"htmlHash\":\"c1bc6ec5\",\"data\":{\"governments\":[],\"name\":\"Test\",\"phone\":\"01113311881\",\"address\":\"22\",\"city_id\":\"1\",\"government_id\":\"1\",\"building_no\":null,\"floor\":null,\"apartment\":null,\"main\":null,\"cities\":[],\"editAddress\":null,\"shippingCart\":true,\"note\":null,\"email\":\"a8b3878bc4@emailfoxi.pro\",\"zip_code\":\"225\"},\"dataMeta\":{\"modelCollections\":{\"governments\":{\"class\":\"App\\\\Models\\\\Government\",\"id\":[1],\"relations\":[\"translations\"],\"connection\":\"mysql\",\"collectionClass\":null},\"cities\":{\"class\":\"App\\\\Models\\\\City\",\"id\":[1],\"relations\":[\"translations\"],\"connection\":\"mysql\",\"collectionClass\":null}}},\"checksum\":\"3f01cb65d35f3613cdad9ba9619de2a0104a6db7eaee334755bab2c791ac2252\"},\"updates\":[{\"type\":\"syncInput\",\"payload\":{\"id\":\"i41w\",\"name\":\"address\",\"value\":\"225\"}}]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://butiqq.rz.dvtst.com/livewire/message/address",
+				"description": "Generated from cURL: curl 'https://butiqq.rz.dvtst.com/livewire/message/address' \\\r\n  -H 'Accept: text/html, application/xhtml+xml' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -H 'Cookie: XSRF-TOKEN=eyJpdiI6Im9Vb3ZBSXdVSUpYRU1sTGloY2Z2K2c9PSIsInZhbHVlIjoia1RpdnJhYWRiRFVoam5wZXNOeG1DMUN4REkvbjRoWWZHQWZTOUx3eStOWFBLdjJreFE1U1dDWkpzNTBRY3lEdkdGd25XSG9vcXF4bUt4RkJnakx3TTNCNjNqMld6U1ZLb0J3Tm5rbU5YTkZ2U1B0M09rQlNyZ3psKzhiNVdFMGwiLCJtYWMiOiJjNTcxZGJlZWMxYTAxZWNjZDZjMTA4MGZmN2EzZDlmZTJhOTVhYzM1MTgwOWMxMzUwODIyOGU3NGRiNzQ5MzA5IiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6IjBvbURxaE9ybzFhOHQ2QTJSbHA4N1E9PSIsInZhbHVlIjoiSU1xOC94anJUTDRZc2tPUVlVYzJ0ek9FTmJUNER4QUtLMjJ2aURPc0VnOTl0UTQvcEZUUmdaU1Z5aTEwV0NsYlVvQmVQeVhPUG1JbjB4S3pFeW5Iaytlb2hxSkcwU0hGMHY0VVZXSkRDbGZzM2JvUEhFaEd5Q2ZLVTI1OENWSEciLCJtYWMiOiI3NTJmMjk0NTA2NDBlZTA3ZjUxYjIxNTU4YTM3NDYyMjZjNTVjN2JjMTgxNDJiNWM5MDBlZTBkM2NhZmY3YTQ3IiwidGFnIjoiIn0%3D' \\\r\n  -H 'Origin: https://butiqq.rz.dvtst.com' \\\r\n  -H 'Referer: https://butiqq.rz.dvtst.com/check-out/shipping' \\\r\n  -H 'Sec-Fetch-Dest: empty' \\\r\n  -H 'Sec-Fetch-Mode: cors' \\\r\n  -H 'Sec-Fetch-Site: same-origin' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0' \\\r\n  -H 'X-CSRF-TOKEN: fvHwoBNO2gPg5gUqUXYbiybMhSx2awPFmTRMtKez' \\\r\n  -H 'X-Livewire: true' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  --data-raw '{\"fingerprint\":{\"id\":\"PMHtpbTO2QnY6844Xp3H\",\"name\":\"address\",\"locale\":\"ar\",\"path\":\"check-out/shipping\",\"method\":\"GET\",\"v\":\"acj\"},\"serverMemo\":{\"children\":[],\"errors\":[],\"htmlHash\":\"c1bc6ec5\",\"data\":{\"governments\":[],\"name\":\"Test\",\"phone\":\"01113311881\",\"address\":\"22\",\"city_id\":\"1\",\"government_id\":\"1\",\"building_no\":null,\"floor\":null,\"apartment\":null,\"main\":null,\"cities\":[],\"editAddress\":null,\"shippingCart\":true,\"note\":null,\"email\":\"a8b3878bc4@emailfoxi.pro\",\"zip_code\":\"225\"},\"dataMeta\":{\"modelCollections\":{\"governments\":{\"class\":\"App\\\\Models\\\\Government\",\"id\":[1],\"relations\":[\"translations\"],\"connection\":\"mysql\",\"collectionClass\":null},\"cities\":{\"class\":\"App\\\\Models\\\\City\",\"id\":[1],\"relations\":[\"translations\"],\"connection\":\"mysql\",\"collectionClass\":null}}},\"checksum\":\"3f01cb65d35f3613cdad9ba9619de2a0104a6db7eaee334755bab2c791ac2252\"},\"updates\":[{\"type\":\"syncInput\",\"payload\":{\"id\":\"i41w\",\"name\":\"address\",\"value\":\"225\"}}]}'"
+			},
+			"response": []
+		},
+		{
+			"name": "Add to Cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html, application/xhtml+xml"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6Im9FSnBjQ0FSNktZN0Vsa2E4Q1BxNGc9PSIsInZhbHVlIjoiei80YnBtOHpuYUtPa0dhcGNDVUVDTmNhRFdjcWJOeDQ5bHl0SkVsZWpSdGdNbjQyR2N6azg4QnhXMXJpV01oYUgxU3JXNk5wcisvMnA4N3NUaEZobGozd1FoRk1CTXJyZ1c0dk5CcFVORFM2ZEU1bWFKc2NZUXdvZlNLczBuL3AiLCJtYWMiOiIyODkyMWUwZmZhMTg5OGU0MTJkZjFlNTZkYmVhOGEzMjRkYjNjZDdhMjY1ZjUwMjNjMTg3YTNhYjg4ZTNkOGI3IiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6ImtxaTNsRG5IYXZYQU5SdkpCMktZb3c9PSIsInZhbHVlIjoibityZjUxT005YXBidHU5ZnlpNStXb2RkS0t5NGlwdmNOMVlxbHBVajBoZGVtSTE2OHRQMVNUQUNrdUhSaXpRVVBjdFFrOXlnZnV5YkhkUjFScVd5SlBXOTh5ZkZ0VHoyc2UzSWxmTGkxRm5LK1BUWFVnNzQ2M1A4aXc3ZThiWHciLCJtYWMiOiJlOWZhNWE2Njk1NjRiNmMzMWFlOTMwYjUyNWUwOTQyY2FlNGMwNTZkYWVkNTljOWNiODUxZDVlYzc5ZjRiNDgyIiwidGFnIjoiIn0%3D"
+					},
+					{
+						"key": "Origin",
+						"value": "https://butiqq.rz.dvtst.com"
+					},
+					{
+						"key": "Referer",
+						"value": "https://butiqq.rz.dvtst.com/products/5"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+					},
+					{
+						"key": "X-CSRF-TOKEN",
+						"value": "fvHwoBNO2gPg5gUqUXYbiybMhSx2awPFmTRMtKez"
+					},
+					{
+						"key": "X-Livewire",
+						"value": "true"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"fingerprint\":{\"id\":\"m2RvK4qQsb0oDgsX5Ds5\",\"name\":\"add-cart\",\"locale\":\"ar\",\"path\":\"products/5\",\"method\":\"GET\",\"v\":\"acj\"},\"serverMemo\":{\"children\":[],\"errors\":[],\"htmlHash\":\"99b872bb\",\"data\":{\"product\":[],\"quantity\":1,\"hide\":null,\"extras\":[],\"totalExtraPrice\":0,\"firstOption\":null,\"secondOption\":null,\"values\":[],\"selectedValues\":[],\"selectedValue\":null,\"secondValue\":null,\"variation_id\":null},\"dataMeta\":{\"models\":{\"product\":{\"class\":\"App\\\\Models\\\\Product\",\"id\":5,\"relations\":[\"translations\",\"tags\",\"reviews\",\"variations\",\"extras\"],\"connection\":\"mysql\",\"collectionClass\":null}}},\"checksum\":\"e76059f7b8d9a370fbb4d61dd23769392bf5e4a97e9396f28785f6caef940139\"},\"updates\":[{\"type\":\"callMethod\",\"payload\":{\"id\":\"krz7\",\"method\":\"addToCart\",\"params\":[5]}}]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://butiqq.rz.dvtst.com/livewire/message/add-cart",
+				"description": "Generated from cURL: curl 'https://butiqq.rz.dvtst.com/livewire/message/add-cart' \\\r\n  -H 'Accept: text/html, application/xhtml+xml' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -H 'Cookie: XSRF-TOKEN=eyJpdiI6Im9FSnBjQ0FSNktZN0Vsa2E4Q1BxNGc9PSIsInZhbHVlIjoiei80YnBtOHpuYUtPa0dhcGNDVUVDTmNhRFdjcWJOeDQ5bHl0SkVsZWpSdGdNbjQyR2N6azg4QnhXMXJpV01oYUgxU3JXNk5wcisvMnA4N3NUaEZobGozd1FoRk1CTXJyZ1c0dk5CcFVORFM2ZEU1bWFKc2NZUXdvZlNLczBuL3AiLCJtYWMiOiIyODkyMWUwZmZhMTg5OGU0MTJkZjFlNTZkYmVhOGEzMjRkYjNjZDdhMjY1ZjUwMjNjMTg3YTNhYjg4ZTNkOGI3IiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6ImtxaTNsRG5IYXZYQU5SdkpCMktZb3c9PSIsInZhbHVlIjoibityZjUxT005YXBidHU5ZnlpNStXb2RkS0t5NGlwdmNOMVlxbHBVajBoZGVtSTE2OHRQMVNUQUNrdUhSaXpRVVBjdFFrOXlnZnV5YkhkUjFScVd5SlBXOTh5ZkZ0VHoyc2UzSWxmTGkxRm5LK1BUWFVnNzQ2M1A4aXc3ZThiWHciLCJtYWMiOiJlOWZhNWE2Njk1NjRiNmMzMWFlOTMwYjUyNWUwOTQyY2FlNGMwNTZkYWVkNTljOWNiODUxZDVlYzc5ZjRiNDgyIiwidGFnIjoiIn0%3D' \\\r\n  -H 'Origin: https://butiqq.rz.dvtst.com' \\\r\n  -H 'Referer: https://butiqq.rz.dvtst.com/products/5' \\\r\n  -H 'Sec-Fetch-Dest: empty' \\\r\n  -H 'Sec-Fetch-Mode: cors' \\\r\n  -H 'Sec-Fetch-Site: same-origin' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0' \\\r\n  -H 'X-CSRF-TOKEN: fvHwoBNO2gPg5gUqUXYbiybMhSx2awPFmTRMtKez' \\\r\n  -H 'X-Livewire: true' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  --data-raw '{\"fingerprint\":{\"id\":\"m2RvK4qQsb0oDgsX5Ds5\",\"name\":\"add-cart\",\"locale\":\"ar\",\"path\":\"products/5\",\"method\":\"GET\",\"v\":\"acj\"},\"serverMemo\":{\"children\":[],\"errors\":[],\"htmlHash\":\"99b872bb\",\"data\":{\"product\":[],\"quantity\":1,\"hide\":null,\"extras\":[],\"totalExtraPrice\":0,\"firstOption\":null,\"secondOption\":null,\"values\":[],\"selectedValues\":[],\"selectedValue\":null,\"secondValue\":null,\"variation_id\":null},\"dataMeta\":{\"models\":{\"product\":{\"class\":\"App\\\\Models\\\\Product\",\"id\":5,\"relations\":[\"translations\",\"tags\",\"reviews\",\"variations\",\"extras\"],\"connection\":\"mysql\",\"collectionClass\":null}}},\"checksum\":\"e76059f7b8d9a370fbb4d61dd23769392bf5e4a97e9396f28785f6caef940139\"},\"updates\":[{\"type\":\"callMethod\",\"payload\":{\"id\":\"krz7\",\"method\":\"addToCart\",\"params\":[5]}}]}'"
+			},
+			"response": []
+		},
+		{
+			"name": "check out",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6ImdRMmxiUElsZGZTZkkzb1I5WUhnM1E9PSIsInZhbHVlIjoidHBraE5Oc0lkYlp0U1N6S1VFYXV6cEJtY0tuVWZ1Q0hRS21FUWtLM3M1bzg5R3IraWtVUGZPT0JBTUNPbmFkSTQzSmw0MTRBWFh1c2ZVb2lFaE1HNG9CNitVZC80YXNCVFRGWi9obHBiTXFmTklTR2xrV2xhcTQ2OTVieU5rU3MiLCJtYWMiOiJhYTA3ZWMzOTE4MjI2NGYyZWI1ZjQ3MWE5MjQ5YjhmNDRmMWRjZDFhYTI5ZTM2ZWUzY2YxYTFlMjI1ZTYxMzM2IiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6IlZIdEozRVZXMnlMVVVxK3liUHJETEE9PSIsInZhbHVlIjoiV3N2bWh1OFRQOXZ4TnhpK1JVeHpIREVzRmFkbHdUd2NHbXBRei9aY1RTeTlrTysrRis0bnN2akxoS2VtSlorOFdVekJ0d0szSG00VHMzSGI1NDhWcU1XWFEwcjZsRkVURkhJenJjMlcybkd0blo0cnBZc0RBaVVpVU41QlhYd3ciLCJtYWMiOiIwYjBhNWM0ODY3YzgwZWQxNjVjODgzZGQ3ZWI5YzFhMjA2MjMzNDg2NmYwOTFmMDExNjk3MWY1NDI2MDg0MzI1IiwidGFnIjoiIn0%3D"
+					},
+					{
+						"key": "Referer",
+						"value": "https://butiqq.rz.dvtst.com/check-out/shipping"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": "https://butiqq.rz.dvtst.com/check-out/shipping",
+				"description": "Generated from cURL: curl 'https://butiqq.rz.dvtst.com/check-out/shipping' \\\r\n  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9' \\\r\n  -H 'Cache-Control: max-age=0' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Cookie: XSRF-TOKEN=eyJpdiI6ImdRMmxiUElsZGZTZkkzb1I5WUhnM1E9PSIsInZhbHVlIjoidHBraE5Oc0lkYlp0U1N6S1VFYXV6cEJtY0tuVWZ1Q0hRS21FUWtLM3M1bzg5R3IraWtVUGZPT0JBTUNPbmFkSTQzSmw0MTRBWFh1c2ZVb2lFaE1HNG9CNitVZC80YXNCVFRGWi9obHBiTXFmTklTR2xrV2xhcTQ2OTVieU5rU3MiLCJtYWMiOiJhYTA3ZWMzOTE4MjI2NGYyZWI1ZjQ3MWE5MjQ5YjhmNDRmMWRjZDFhYTI5ZTM2ZWUzY2YxYTFlMjI1ZTYxMzM2IiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6IlZIdEozRVZXMnlMVVVxK3liUHJETEE9PSIsInZhbHVlIjoiV3N2bWh1OFRQOXZ4TnhpK1JVeHpIREVzRmFkbHdUd2NHbXBRei9aY1RTeTlrTysrRis0bnN2akxoS2VtSlorOFdVekJ0d0szSG00VHMzSGI1NDhWcU1XWFEwcjZsRkVURkhJenJjMlcybkd0blo0cnBZc0RBaVVpVU41QlhYd3ciLCJtYWMiOiIwYjBhNWM0ODY3YzgwZWQxNjVjODgzZGQ3ZWI5YzFhMjA2MjMzNDg2NmYwOTFmMDExNjk3MWY1NDI2MDg0MzI1IiwidGFnIjoiIn0%3D' \\\r\n  -H 'Referer: https://butiqq.rz.dvtst.com/check-out/shipping' \\\r\n  -H 'Sec-Fetch-Dest: document' \\\r\n  -H 'Sec-Fetch-Mode: navigate' \\\r\n  -H 'Sec-Fetch-Site: same-origin' \\\r\n  -H 'Sec-Fetch-User: ?1' \\\r\n  -H 'Upgrade-Insecure-Requests: 1' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"'"
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Cookie",
+						"value": "XSRF-TOKEN=eyJpdiI6ImxCNTRFTTAvWkNZYzdrbVlwcFBCdVE9PSIsInZhbHVlIjoiRU03Qlg1OFJpZkxmdjl4SlRlL0g5Z0RZVjIvd3NoY1VodFdJVWVFU3ZDRXdYMldYUGVLQm9aSEJRTGgxV2h2RUtMNlZ3bzh0ZzljQTd2QVNXREo2M3FTOFAwa1FnWVA0a1EvSE9pYjIvVnIwOGhHSjFXSkhSTFA4cENLL294c28iLCJtYWMiOiJmMDgzNTBmOTU5OTM3ZDg3ZTViNDI2Y2UwNzczNGJmMGI5MWU4OWEyNTdjN2FiOGU1OWZjOTE1MjM5OGRjOWJmIiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6ImQxWDZoNlNtWk0yRVRGeFVCMnhBb2c9PSIsInZhbHVlIjoibFNhQ2RHK3g4b1pxeThzaWNRY3hzbE5uQkpHb1hnTUtTNFFHNXFhQ2tkaEFvN0o3UUV3QlV0SisraUJZbHBpbCtGOHYvcmh2VHR2NE9oR09CVTZhSk9zcERsaWczN09KeStTdGxCVSs4UmJTcmllYlNMbUlzK0UxSDFhTG5PR3IiLCJtYWMiOiIwNTgyNmVjNDEzZjc0MjkzMzQzZjY0MjRlN2Q4MWQwZjRmNDcwYjEzNjMwNjJjNDFhMzliYzFhYmU3YmZlZWE3IiwidGFnIjoiIn0%3D"
+					},
+					{
+						"key": "Origin",
+						"value": "https://butiqq.rz.dvtst.com"
+					},
+					{
+						"key": "Referer",
+						"value": "https://butiqq.rz.dvtst.com/account"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "_token",
+							"value": "RF7LdjE7qDZYzopbYEpaafKkeYCm58zwJ1qsuTUX",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://butiqq.rz.dvtst.com/logout",
+				"description": "Generated from cURL: curl 'https://butiqq.rz.dvtst.com/logout' \\\r\n  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9' \\\r\n  -H 'Cache-Control: max-age=0' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/x-www-form-urlencoded' \\\r\n  -H 'Cookie: XSRF-TOKEN=eyJpdiI6ImxCNTRFTTAvWkNZYzdrbVlwcFBCdVE9PSIsInZhbHVlIjoiRU03Qlg1OFJpZkxmdjl4SlRlL0g5Z0RZVjIvd3NoY1VodFdJVWVFU3ZDRXdYMldYUGVLQm9aSEJRTGgxV2h2RUtMNlZ3bzh0ZzljQTd2QVNXREo2M3FTOFAwa1FnWVA0a1EvSE9pYjIvVnIwOGhHSjFXSkhSTFA4cENLL294c28iLCJtYWMiOiJmMDgzNTBmOTU5OTM3ZDg3ZTViNDI2Y2UwNzczNGJmMGI5MWU4OWEyNTdjN2FiOGU1OWZjOTE1MjM5OGRjOWJmIiwidGFnIjoiIn0%3D; butik_session=eyJpdiI6ImQxWDZoNlNtWk0yRVRGeFVCMnhBb2c9PSIsInZhbHVlIjoibFNhQ2RHK3g4b1pxeThzaWNRY3hzbE5uQkpHb1hnTUtTNFFHNXFhQ2tkaEFvN0o3UUV3QlV0SisraUJZbHBpbCtGOHYvcmh2VHR2NE9oR09CVTZhSk9zcERsaWczN09KeStTdGxCVSs4UmJTcmllYlNMbUlzK0UxSDFhTG5PR3IiLCJtYWMiOiIwNTgyNmVjNDEzZjc0MjkzMzQzZjY0MjRlN2Q4MWQwZjRmNDcwYjEzNjMwNjJjNDFhMzliYzFhYmU3YmZlZWE3IiwidGFnIjoiIn0%3D' \\\r\n  -H 'Origin: https://butiqq.rz.dvtst.com' \\\r\n  -H 'Referer: https://butiqq.rz.dvtst.com/account' \\\r\n  -H 'Sec-Fetch-Dest: document' \\\r\n  -H 'Sec-Fetch-Mode: navigate' \\\r\n  -H 'Sec-Fetch-Site: same-origin' \\\r\n  -H 'Sec-Fetch-User: ?1' \\\r\n  -H 'Upgrade-Insecure-Requests: 1' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"130\", \"Microsoft Edge\";v=\"130\", \"Not?A_Brand\";v=\"99\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  --data-raw '_token=RF7LdjE7qDZYzopbYEpaafKkeYCm58zwJ1qsuTUX'"
+			},
+			"response": []
+		}
+	]
+}
